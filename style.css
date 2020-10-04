@@ -63,7 +63,6 @@ h2 {
 div.main-div {
   background-color: #211e00;
   color: #fff;
-  border-radius: 9px;
 }
 
 hr.main-hr {
@@ -75,7 +74,7 @@ hr.main-hr {
 blockquote {
   text-align: center;
   padding-top: 12px;
-  margin: 12px 0 36px 0;
+  margin: 0px 0 36px 0;
   font: italic 28px/36px "Garamond Pro";
 }
 
@@ -105,5 +104,11 @@ a:visited {
     padding: 12px;
     font-size: 13pt;
     /* font-size: 18px; */
+    margin-bottom: 12px;
   }
+
+  blockquote {
+    margin-top: 12px;
+  }
+
 }
