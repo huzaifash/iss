@@ -50,16 +50,31 @@ h2 {
 }
 
 .subtitle {
-  font: 600 20px/24px Garamond Pro Bold;
+  color: inherit;
+  font: 600 20px/24px Garamond Pro;
   margin-top: -35px;
-  margin-bottom: 50px;
+  margin-bottom: 36px;
   background-color: inherit;
   border: none;
   text-align: center;
+  padding-bottom: 12px;
+}
+
+div.main-div {
+  background-color: #211e00;
+  color: #fff;
+  border-radius: 9px;
+}
+
+hr.main-hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
 blockquote {
   text-align: center;
+  padding-top: 12px;
   margin: 12px 0 36px 0;
   font: italic 28px/36px "Garamond Pro";
 }
